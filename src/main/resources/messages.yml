@@ -1,0 +1,11 @@
+messages:
+  prefix: '&8[&bCasino&8] &7'
+  noPermissions: 'You do not have the permissions required to access casino administrator commands!'
+  wonItem3: '&aYou won <itemWon>'
+  wonItem2: '&aYou won 2 items in a row, <itemWon>'
+  wonItem1: '&aYou won 1 item in a row'
+  inUse: '&eThis Slot Machine is in use! &7Please wait..'
+  notEnoughVault: 'You do not have enough to use this slot machine! You require <amount>!'
+  notEnoughChips: 'You do not have enough to use this slot machine! You require <amount>!'
+  takenFromAmountVault: 'Weve taken $<amount> from your account!'
+  takenFromAmountChips: 'Weve taken <amount> chips from your account!'

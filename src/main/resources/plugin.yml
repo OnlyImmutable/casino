@@ -1,0 +1,3 @@
+name: Casino
+main: net.casino.CasinoPlugin
+version: 1.0.9

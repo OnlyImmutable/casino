@@ -1,0 +1,4 @@
+# Here you can edit the specific slot machines by location.
+# Data relating to slot machines such as if a gui is enabled
+# Will be located here.
+slotmachines: []

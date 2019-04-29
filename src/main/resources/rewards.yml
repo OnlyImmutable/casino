@@ -1,0 +1,11 @@
+# These are the default rewards that will be assigned to any new slot machine.
+# Edit these if you want new machines to have these rewards.
+rewards:
+  '1':
+    displayName: $1500
+    commands:
+    - eco give <player> 1500
+  '2':
+    displayName: $10000
+    commands:
+    - eco give <player> 10000

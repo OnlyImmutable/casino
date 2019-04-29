@@ -1,0 +1,39 @@
+casino:
+  coins: # Are coins enabled?
+    enabled: true
+  vault: # Is vault enabled?
+    enabled: true
+  resourcepack:
+    customlink: '' # Custom resourcepack link if you're using your own.
+    enabledWorlds: # Worlds the resourcepack is enabled in.
+    - world
+slots:
+  items:
+    base:
+      item: IRON_HOE # Material of the model.
+      durability: 4 # Durability of the model.
+    handle:
+      item: IRON_HOE # Material of the model.
+      durability: 1 # Durability of the model.
+    wheels:
+      item: IRON_HOE # Material of the model.
+      durability: 3 # Durability of the model.
+    coins:
+      displayName: '&eCasino Coin'
+      item: IRON_HOE # Material of the model.
+      durability: 6 # Durability of the model.
+  oneicon:
+    randomrewards: false # Should you get a random reward from the rewards.yml or from the unique casino rewards.
+    fireworkEnabled:  false # Should the firework be enabled once the casino is finished.
+    commands: # Commands that execute everytime they use the machine, 'commands: []' if you want no cmds.
+    - eco give <player> 50
+  twoicon:
+    randomrewards: true # Should you get a random reward from the rewards.yml or from the unique casino rewards.
+    fireworkEnabled:  false # Should the firework be enabled once the casino is finished.
+    commands: # Commands that execute everytime they use the machine, 'commands: []' if you want no cmds.
+    - eco give <player> 50
+  threeicon:
+    randomrewards: true # Should you get a random reward from the rewards.yml or from the unique casino rewards.
+    fireworkEnabled:  true # Should the firework be enabled once the casino is finished.
+    commands: # Commands that execute everytime they use the machine, 'commands: []' if you want no cmds.
+    - eco give <player> 50
